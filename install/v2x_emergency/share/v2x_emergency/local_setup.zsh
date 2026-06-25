@@ -1,0 +1,1 @@
+/workspaces/Qcar/build/v2x_emergency/ament_cmake_environment_hooks/local_setup.zsh

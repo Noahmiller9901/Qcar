@@ -1,0 +1,60 @@
+[0.311s] Invoking command in '/workspaces/Qcar/build/qcar2_description': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /workspaces/Qcar/src/qcar2_description -DPython3_EXECUTABLE=/usr/bin/python3 -DPython_EXECUTABLE=/usr/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/Qcar/install/qcar2_description
+[0.427s] -- The C compiler identification is GNU 13.3.0
+[0.682s] -- The CXX compiler identification is GNU 13.3.0
+[0.728s] -- Detecting C compiler ABI info
+[0.995s] -- Detecting C compiler ABI info - done
+[1.033s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.033s] -- Detecting C compile features
+[1.033s] -- Detecting C compile features - done
+[1.059s] -- Detecting CXX compiler ABI info
+[1.287s] -- Detecting CXX compiler ABI info - done
+[1.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.318s] -- Detecting CXX compile features
+[1.319s] -- Detecting CXX compile features - done
+[1.323s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.537s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.952s] -- Configuring done (1.6s)
+[1.957s] -- Generating done (0.0s)
+[1.957s] [33mCMake Warning:
+[1.957s]   Manually-specified variables were not used by the project:
+[1.957s] 
+[1.957s]     Python_EXECUTABLE
+[1.958s] 
+[1.958s] [0m
+[1.961s] -- Build files have been written to: /workspaces/Qcar/build/qcar2_description
+[1.967s] Invoked command in '/workspaces/Qcar/build/qcar2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /workspaces/Qcar/src/qcar2_description -DPython3_EXECUTABLE=/usr/bin/python3 -DPython_EXECUTABLE=/usr/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/Qcar/install/qcar2_description
+[1.969s] Invoking command in '/workspaces/Qcar/build/qcar2_description': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /workspaces/Qcar/build/qcar2_description -- -j2 -l2
+[2.027s] Invoked command in '/workspaces/Qcar/build/qcar2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /workspaces/Qcar/build/qcar2_description -- -j2 -l2
+[2.049s] Invoking command in '/workspaces/Qcar/build/qcar2_description': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /workspaces/Qcar/build/qcar2_description
+[2.062s] -- Install configuration: ""
+[2.063s] -- Execute custom install script
+[2.065s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/urdf/QCar2_original.urdf
+[2.078s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/urdf/QCar2_planb.urdf
+[2.097s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCar2Body.stl
+[2.106s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCar2Lidar.stl
+[2.119s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCarSteeringHubL.stl
+[2.132s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCarSteeringHubR.stl
+[2.146s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCarWheel.stl
+[2.162s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/models/qcar2_planb/model.config
+[2.173s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/models/qcar2_planb/model.sdf
+[2.187s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/launch/qcar2_bridge.launch.py
+[2.200s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/launch/qcar2_state_publisher.launch.py
+[2.214s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/launch/spawn_qcar2_planb.launch.py
+[2.228s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/config/qcar2_ros_gz_bridge.yaml
+[2.242s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/ament_index/resource_index/package_run_dependencies/qcar2_description
+[2.257s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/ament_index/resource_index/parent_prefix_path/qcar2_description
+[2.268s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/ament_prefix_path.sh
+[2.282s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/ament_prefix_path.dsv
+[2.295s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/path.sh
+[2.310s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/path.dsv
+[2.324s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.bash
+[2.336s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.sh
+[2.345s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.zsh
+[2.364s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.dsv
+[2.373s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/package.dsv
+[2.384s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/ament_index/resource_index/packages/qcar2_description
+[2.400s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/cmake/qcar2_descriptionConfig.cmake
+[2.411s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/cmake/qcar2_descriptionConfig-version.cmake
+[2.426s] -- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/package.xml
+[2.439s] Invoked command in '/workspaces/Qcar/build/qcar2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /workspaces/Qcar/build/qcar2_description

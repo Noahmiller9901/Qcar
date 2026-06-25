@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="traffic_light_grid_world">
+    <physics name="1ms" type="ignored"><max_step_size>0.001</max_step_size><real_time_factor>1.0</real_time_factor></physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <light type="directional" name="sun"><pose>0 0 10 0 0 0</pose><diffuse>0.8 0.8 0.8 1</diffuse><direction>-0.5 0.1 -0.9</direction></light>
+    <model name="ground"><static>true</static><link name="ground_link"><collision name="collision"><geometry><plane><normal>0 0 1</normal><size>40 40</size></plane></geometry></collision><visual name="visual"><geometry><plane><normal>0 0 1</normal><size>40 40</size></plane></geometry><material><diffuse>0.15 0.15 0.15 1</diffuse></material></visual></link></model>
+    <model name="intersection_markings"><static>true</static><link name="link">
+      <visual name="east_west"><pose>0 0 0.012 0 0 0</pose><geometry><box><size>30 0.15 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="north_south"><pose>0 0 0.012 0 0 0</pose><geometry><box><size>0.15 30 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="stop_line"><pose>-2.5 0.9 0.015 0 0 0</pose><geometry><box><size>0.15 2.5 0.025</size></box></geometry><material><diffuse>1 1 0 1</diffuse></material></visual>
+    </link></model>
+    <model name="traffic_lights"><static>true</static><link name="link">
+      <visual name="pole1"><pose>-2 2 1 0 0 0</pose><geometry><cylinder><radius>0.06</radius><length>2</length></cylinder></geometry><material><diffuse>0.05 0.05 0.05 1</diffuse></material></visual>
+      <visual name="red1"><pose>-2 2 2.1 0 0 0</pose><geometry><sphere><radius>0.18</radius></sphere></geometry><material><diffuse>1 0 0 1</diffuse></material></visual>
+      <visual name="green1"><pose>-2 2 1.65 0 0 0</pose><geometry><sphere><radius>0.18</radius></sphere></geometry><material><diffuse>0 1 0 1</diffuse></material></visual>
+    </link></model>
+
+    <!-- QCar-style robot included for Plan B demos. If you already spawned an official QCar, delete/ignore this include. -->
+    <include>
+      <uri>model://qcar_planb</uri>
+      <name>qcar</name>
+      <pose>-6 0 0.12 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

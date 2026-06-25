@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>v2x_system_integration</name>
+  <version>0.1.0</version>
+  <description>Launch-only integration package for v2x_nav2_sim, V2X emergency logic, priority mux, and MPPI.</description>
+  <maintainer email="prathamesh@example.com">Prathamesh Sathe</maintainer>
+  <license>MIT</license>
+
+  <depend>v2x_nav2_sim</depend>
+  <depend>v2x_emergency</depend>
+  <depend>emergency_priority</depend>
+  <depend>v2x_mppi_lane_avoidance</depend>
+  <depend>v2x_opencv_perception</depend>
+  <depend>nav2_bringup</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

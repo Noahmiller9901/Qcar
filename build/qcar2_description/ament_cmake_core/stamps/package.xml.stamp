@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>qcar2_description</name>
+  <version>0.1.0</version>
+  <description>QCar2 robot description and Gazebo Plan-B demo model based on the uploaded QCar2 URDF.</description>
+  <maintainer email="student@example.com">V2X Team</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

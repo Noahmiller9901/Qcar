@@ -1,0 +1,13 @@
+{
+  "package_name": "v2x_emergency",
+  "output_dir": "/workspaces/Qcar/build/v2x_emergency/rosidl_generator_type_description/v2x_emergency",
+  "idl_tuples": [
+    "/workspaces/Qcar/build/v2x_emergency/rosidl_adapter/v2x_emergency:msg/PriorityRequest.idl",
+    "/workspaces/Qcar/build/v2x_emergency/rosidl_adapter/v2x_emergency:msg/SignalStatus.idl",
+    "/workspaces/Qcar/build/v2x_emergency/rosidl_adapter/v2x_emergency:msg/PriorityGrant.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

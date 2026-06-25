@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info
+writing ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/dependency_links.txt
+writing requirements to ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/requires.txt
+writing top-level names to ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/top_level.txt
+writing manifest file '../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/Qcar/build/v2x_nav2_sim/build/lib/v2x_nav2_sim
+copying v2x_nav2_sim/__init__.py -> /workspaces/Qcar/build/v2x_nav2_sim/build/lib/v2x_nav2_sim
+running install
+running install_lib
+creating /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim
+copying /workspaces/Qcar/build/v2x_nav2_sim/build/lib/v2x_nav2_sim/__init__.py -> /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim
+byte-compiling /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /workspaces/Qcar/install/v2x_nav2_sim/share/ament_index/resource_index/packages
+copying resource/v2x_nav2_sim -> /workspaces/Qcar/install/v2x_nav2_sim/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim
+creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+copying launch/rviz.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+copying launch/gazebo_sim.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+copying launch/nav2_smac.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+copying launch/full_nav2_gazebo.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/config
+copying config/ros_gz_bridge.yaml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/config
+copying config/nav2_smac_params.yaml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/config
+creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/maps
+copying maps/v2x_lab_map.pgm -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/maps
+copying maps/v2x_lab_map.yaml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/maps
+creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/worlds
+copying worlds/v2x_lab_world.sdf -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/worlds
+creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/models/qcar_simple
+copying models/qcar_simple/model.config -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/models/qcar_simple
+copying models/qcar_simple/model.sdf -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/models/qcar_simple
+running install_egg_info
+Copying ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info to /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim-0.1.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/Qcar/build/v2x_nav2_sim/install.log'

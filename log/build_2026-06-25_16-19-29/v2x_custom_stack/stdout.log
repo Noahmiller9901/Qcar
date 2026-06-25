@@ -1,0 +1,75 @@
+running egg_info
+creating ../../build/v2x_custom_stack/v2x_custom_stack.egg-info
+writing ../../build/v2x_custom_stack/v2x_custom_stack.egg-info/PKG-INFO
+writing dependency_links to ../../build/v2x_custom_stack/v2x_custom_stack.egg-info/dependency_links.txt
+writing entry points to ../../build/v2x_custom_stack/v2x_custom_stack.egg-info/entry_points.txt
+writing requirements to ../../build/v2x_custom_stack/v2x_custom_stack.egg-info/requires.txt
+writing top-level names to ../../build/v2x_custom_stack/v2x_custom_stack.egg-info/top_level.txt
+writing manifest file '../../build/v2x_custom_stack/v2x_custom_stack.egg-info/SOURCES.txt'
+reading manifest file '../../build/v2x_custom_stack/v2x_custom_stack.egg-info/SOURCES.txt'
+writing manifest file '../../build/v2x_custom_stack/v2x_custom_stack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+copying v2x_custom_stack/common.py -> /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+copying v2x_custom_stack/custom_costmap_node.py -> /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+copying v2x_custom_stack/__init__.py -> /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+copying v2x_custom_stack/polynomial_smoother_node.py -> /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+copying v2x_custom_stack/traffic_light_gate_node.py -> /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+copying v2x_custom_stack/custom_path_planner_node.py -> /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack
+running install
+running install_lib
+creating /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+copying /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack/common.py -> /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+copying /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack/custom_costmap_node.py -> /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+copying /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack/__init__.py -> /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+copying /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack/polynomial_smoother_node.py -> /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+copying /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack/traffic_light_gate_node.py -> /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+copying /workspaces/Qcar/build/v2x_custom_stack/build/lib/v2x_custom_stack/custom_path_planner_node.py -> /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack
+byte-compiling /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack/common.py to common.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack/custom_costmap_node.py to custom_costmap_node.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack/polynomial_smoother_node.py to polynomial_smoother_node.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack/traffic_light_gate_node.py to traffic_light_gate_node.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack/custom_path_planner_node.py to custom_path_planner_node.cpython-312.pyc
+running install_data
+creating /workspaces/Qcar/install/v2x_custom_stack/share/ament_index/resource_index/packages
+copying resource/v2x_custom_stack -> /workspaces/Qcar/install/v2x_custom_stack/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack
+creating /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/spawn_qcar_planb.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/qcar_planb_bridge.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_qcar2_full_gazebo.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_with_gazebo.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_qcar_world.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_attach_to_running_gazebo.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_custom_stack.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_original_gazebo_full.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+copying launch/plan_b_qcar2_nav2_replacement.launch.py -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/launch
+creating /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/config
+copying config/qcar_planb_ros_gz_bridge.yaml -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/config
+creating /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+copying worlds/qcar2_traffic_light_grid_world.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+copying worlds/simple_grid_world.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+copying worlds/qcar2_eight_shape_road_world.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+copying worlds/traffic_light_grid_world.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+copying worlds/qcar2_simple_grid_world.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+copying worlds/eight_shape_road_world.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/worlds
+creating /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+copying maps/traffic_light_grid_map.pgm -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+copying maps/simple_grid_map.yaml -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+copying maps/eight_shape_road_map.pgm -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+copying maps/traffic_light_grid_map.yaml -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+copying maps/eight_shape_road_map.yaml -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+copying maps/simple_grid_map.pgm -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/maps
+creating /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/models/qcar_planb
+copying models/qcar_planb/model.config -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/models/qcar_planb
+copying models/qcar_planb/model.sdf -> /workspaces/Qcar/install/v2x_custom_stack/share/v2x_custom_stack/models/qcar_planb
+running install_egg_info
+Copying ../../build/v2x_custom_stack/v2x_custom_stack.egg-info to /workspaces/Qcar/install/v2x_custom_stack/lib/python3.12/site-packages/v2x_custom_stack-0.1.0-py3.12.egg-info
+running install_scripts
+Installing custom_costmap_node script to /workspaces/Qcar/install/v2x_custom_stack/lib/v2x_custom_stack
+Installing custom_path_planner_node script to /workspaces/Qcar/install/v2x_custom_stack/lib/v2x_custom_stack
+Installing polynomial_smoother_node script to /workspaces/Qcar/install/v2x_custom_stack/lib/v2x_custom_stack
+Installing traffic_light_gate_node script to /workspaces/Qcar/install/v2x_custom_stack/lib/v2x_custom_stack
+writing list of installed files to '/workspaces/Qcar/build/v2x_custom_stack/install.log'

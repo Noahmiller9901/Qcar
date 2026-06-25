@@ -1,0 +1,44 @@
+[1.770s] Invoking command in '/workspaces/Qcar/src/v2x_nav2_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/v2x_nav2_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v2x_nav2_sim build --build-base /workspaces/Qcar/build/v2x_nav2_sim/build install --record /workspaces/Qcar/build/v2x_nav2_sim/install.log --single-version-externally-managed install_data
+[2.348s] running egg_info
+[2.379s] creating ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info
+[2.380s] writing ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/PKG-INFO
+[2.381s] writing dependency_links to ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/dependency_links.txt
+[2.381s] writing requirements to ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/requires.txt
+[2.381s] writing top-level names to ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/top_level.txt
+[2.382s] writing manifest file '../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/SOURCES.txt'
+[2.497s] reading manifest file '../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/SOURCES.txt'
+[2.507s] writing manifest file '../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info/SOURCES.txt'
+[2.507s] running build
+[2.507s] running build_py
+[2.509s] creating /workspaces/Qcar/build/v2x_nav2_sim/build/lib/v2x_nav2_sim
+[2.514s] copying v2x_nav2_sim/__init__.py -> /workspaces/Qcar/build/v2x_nav2_sim/build/lib/v2x_nav2_sim
+[2.514s] running install
+[2.531s] running install_lib
+[2.618s] creating /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim
+[2.618s] copying /workspaces/Qcar/build/v2x_nav2_sim/build/lib/v2x_nav2_sim/__init__.py -> /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim
+[2.618s] byte-compiling /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim/__init__.py to __init__.cpython-312.pyc
+[2.618s] running install_data
+[2.619s] creating /workspaces/Qcar/install/v2x_nav2_sim/share/ament_index/resource_index/packages
+[2.622s] copying resource/v2x_nav2_sim -> /workspaces/Qcar/install/v2x_nav2_sim/share/ament_index/resource_index/packages
+[2.622s] copying package.xml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim
+[2.622s] creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+[2.622s] copying launch/rviz.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+[2.622s] copying launch/gazebo_sim.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+[2.623s] copying launch/nav2_smac.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+[2.623s] copying launch/full_nav2_gazebo.launch.py -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/launch
+[2.624s] creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/config
+[2.624s] copying config/ros_gz_bridge.yaml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/config
+[2.628s] copying config/nav2_smac_params.yaml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/config
+[2.630s] creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/maps
+[2.630s] copying maps/v2x_lab_map.pgm -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/maps
+[2.630s] copying maps/v2x_lab_map.yaml -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/maps
+[2.630s] creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/worlds
+[2.630s] copying worlds/v2x_lab_world.sdf -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/worlds
+[2.630s] creating /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/models/qcar_simple
+[2.630s] copying models/qcar_simple/model.config -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/models/qcar_simple
+[2.631s] copying models/qcar_simple/model.sdf -> /workspaces/Qcar/install/v2x_nav2_sim/share/v2x_nav2_sim/models/qcar_simple
+[2.631s] running install_egg_info
+[2.703s] Copying ../../build/v2x_nav2_sim/v2x_nav2_sim.egg-info to /workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages/v2x_nav2_sim-0.1.0-py3.12.egg-info
+[2.703s] running install_scripts
+[2.791s] writing list of installed files to '/workspaces/Qcar/build/v2x_nav2_sim/install.log'
+[2.862s] Invoked command in '/workspaces/Qcar/src/v2x_nav2_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/v2x_nav2_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/v2x_nav2_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v2x_nav2_sim build --build-base /workspaces/Qcar/build/v2x_nav2_sim/build install --record /workspaces/Qcar/build/v2x_nav2_sim/install.log --single-version-externally-managed install_data

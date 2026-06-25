@@ -1,0 +1,2 @@
+[console_scripts]
+mppi_path_follower = v2x_mppi_lane_avoidance.mppi_path_follower_node:main

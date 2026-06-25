@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: emergency_priority
+Version: 0.0.1
+Summary: V2X fallback safety node for the emergency vehicle project.
+Maintainer: hassan
+Maintainer-email: hassan@todo.todo
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,4 @@
+[console_scripts]
+priority_mux_node = emergency_priority.priority_mux_node:main
+standin_lane_controller = emergency_priority.standin_lane_controller:main
+v2x_fallback_node = emergency_priority.v2x_fallback_node:main

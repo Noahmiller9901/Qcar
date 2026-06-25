@@ -1,0 +1,5 @@
+[console_scripts]
+custom_costmap_node = v2x_custom_stack.custom_costmap_node:main
+custom_path_planner_node = v2x_custom_stack.custom_path_planner_node:main
+polynomial_smoother_node = v2x_custom_stack.polynomial_smoother_node:main
+traffic_light_gate_node = v2x_custom_stack.traffic_light_gate_node:main

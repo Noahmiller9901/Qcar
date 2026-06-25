@@ -1,0 +1,1 @@
+/workspaces/Qcar/build/v2x_emergency/rosidl_typesupport_fastrtps_c/v2x_emergency/msg/detail/priority_grant__rosidl_typesupport_fastrtps_c.h

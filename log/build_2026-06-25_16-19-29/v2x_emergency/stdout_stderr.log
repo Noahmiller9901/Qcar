@@ -1,0 +1,280 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (5.4s)
+-- Generating done (0.1s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python_EXECUTABLE
+
+[0m
+-- Build files have been written to: /workspaces/Qcar/build/v2x_emergency
+[  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  3%] Built target v2x_emergency__rosidl_generator_type_description
+[  3%] Built target ament_cmake_python_symlink_v2x_emergency
+[  3%] Built target v2x_emergency__rs
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] Built target v2x_emergency__cpp
+[  9%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/priority_request__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/priority_request__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/priority_request__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/signal_status__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/signal_status__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/signal_status__type_support.c.o[0m
+running egg_info
+[ 20%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/priority_grant__description.c.o[0m
+creating v2x_emergency.egg-info
+writing v2x_emergency.egg-info/PKG-INFO
+writing dependency_links to v2x_emergency.egg-info/dependency_links.txt
+writing top-level names to v2x_emergency.egg-info/top_level.txt
+writing manifest file 'v2x_emergency.egg-info/SOURCES.txt'
+reading manifest file 'v2x_emergency.egg-info/SOURCES.txt'
+writing manifest file 'v2x_emergency.egg-info/SOURCES.txt'
+[ 21%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/priority_grant__functions.c.o[0m
+[ 21%] Built target ament_cmake_python_build_v2x_emergency_egg
+[ 23%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_c.dir/rosidl_generator_c/v2x_emergency/msg/detail/priority_grant__type_support.c.o[0m
+[ 25%] [32m[1mLinking C shared library libv2x_emergency__rosidl_generator_c.so[0m
+[ 25%] Built target v2x_emergency__rosidl_generator_c
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/v2x_emergency/msg/detail/priority_request__type_support_c.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/v2x_emergency/msg/detail/dds_fastrtps/priority_request__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/v2x_emergency/msg/detail/signal_status__type_support_c.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/v2x_emergency/msg/detail/dds_fastrtps/signal_status__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/v2x_emergency/msg/detail/dds_fastrtps/priority_grant__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/v2x_emergency/msg/detail/priority_grant__type_support_c.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libv2x_emergency__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 43%] [32m[1mLinking CXX shared library libv2x_emergency__rosidl_typesupport_fastrtps_c.so[0m
+[ 43%] Built target v2x_emergency__rosidl_typesupport_fastrtps_cpp
+[ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 45%] Built target v2x_emergency__rosidl_typesupport_fastrtps_c
+[ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_c.dir/rosidl_typesupport_c/v2x_emergency/msg/priority_request__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/v2x_emergency/msg/detail/priority_request__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_c.dir/rosidl_typesupport_c/v2x_emergency/msg/signal_status__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/v2x_emergency/msg/detail/signal_status__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_c.dir/rosidl_typesupport_c/v2x_emergency/msg/priority_grant__type_support.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/v2x_emergency/msg/detail/priority_grant__type_support.c.o[0m
+[ 60%] [32m[1mLinking C shared library libv2x_emergency__rosidl_typesupport_introspection_c.so[0m
+[ 61%] [32m[1mLinking CXX shared library libv2x_emergency__rosidl_typesupport_c.so[0m
+[ 61%] Built target v2x_emergency__rosidl_typesupport_introspection_c
+[ 63%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 63%] Built target v2x_emergency__rosidl_typesupport_c
+[ 65%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/v2x_emergency/msg/detail/priority_request__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/v2x_emergency/msg/priority_request__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/v2x_emergency/msg/detail/signal_status__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/v2x_emergency/msg/signal_status__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/v2x_emergency/msg/priority_grant__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/v2x_emergency__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/v2x_emergency/msg/detail/priority_grant__type_support.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libv2x_emergency__rosidl_typesupport_cpp.so[0m
+[ 80%] [32m[1mLinking CXX shared library libv2x_emergency__rosidl_typesupport_introspection_cpp.so[0m
+[ 80%] Built target v2x_emergency__rosidl_typesupport_cpp
+[ 80%] Built target v2x_emergency__rosidl_typesupport_introspection_cpp
+[ 80%] Built target v2x_emergency
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target v2x_emergency__py
+[ 83%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_py.dir/rosidl_generator_py/v2x_emergency/msg/_priority_request_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_py.dir/rosidl_generator_py/v2x_emergency/msg/_signal_status_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/v2x_emergency__rosidl_generator_py.dir/rosidl_generator_py/v2x_emergency/msg/_priority_grant_s.c.o[0m
+[ 89%] [32m[1mLinking C shared library libv2x_emergency__rosidl_generator_py.so[0m
+[ 89%] Built target v2x_emergency__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/v2x_emergency_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/v2x_emergency/_v2x_emergency_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/v2x_emergency_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/v2x_emergency/_v2x_emergency_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/v2x_emergency/v2x_emergency_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/v2x_emergency/v2x_emergency_s__rosidl_typesupport_introspection_c.so[0m
+[ 96%] Built target v2x_emergency_s__rosidl_typesupport_fastrtps_c
+[ 96%] Built target v2x_emergency_s__rosidl_typesupport_introspection_c
+[ 98%] [32mBuilding C object CMakeFiles/v2x_emergency_s__rosidl_typesupport_c.dir/rosidl_generator_py/v2x_emergency/_v2x_emergency_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/v2x_emergency/v2x_emergency_s__rosidl_typesupport_c.so[0m
+[100%] Built target v2x_emergency_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/ament_index/resource_index/rosidl_interfaces/v2x_emergency
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/PriorityRequest.json
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/SignalStatus.json
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/PriorityGrant.json
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__functions.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__struct.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__type_support.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__functions.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__struct.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__type_support.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__functions.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__struct.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__type_support.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/priority_grant.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/priority_request.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/signal_status.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/library_path.sh
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/library_path.dsv
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__builder.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__struct.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__traits.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__type_support.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__builder.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__struct.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__traits.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__type_support.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__builder.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__struct.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__traits.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__type_support.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/priority_grant.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/priority_request.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/signal_status.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__rosidl_typesupport_introspection_c.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__rosidl_typesupport_introspection_c.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_grant__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/priority_request__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/include/v2x_emergency/v2x_emergency/msg/detail/signal_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/pythonpath.sh
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/pythonpath.dsv
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency-0.1.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency-0.1.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/__init__.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/_v2x_emergency_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/_v2x_emergency_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/_v2x_emergency_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/__init__.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_priority_grant.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_priority_grant_s.c
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_priority_request.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_priority_request_s.c
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_signal_status.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_signal_status_s.c
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/v2x_emergency_s__rosidl_typesupport_c.so
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/v2x_emergency_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/v2x_emergency_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/v2x_emergency_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/v2x_emergency_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/v2x_emergency_s__rosidl_typesupport_c.so
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/ament_index/resource_index/rust_packages/v2x_emergency
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/rust/Cargo.toml
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/rust/build.rs
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/rust/src/lib.rs
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/rust/src/msg.rs
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/rust/src/msg/rmw.rs
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/PriorityRequest.idl
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/SignalStatus.idl
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/PriorityGrant.idl
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/PriorityRequest.msg
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/SignalStatus.msg
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/msg/PriorityGrant.msg
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/v2x_emergency/vehicle_node.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/v2x_emergency/traffic_light_node.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/lib/v2x_emergency/v2x_controller.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/launch/v2x_full_demo.launch.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/launch/v2x_simulation.launch.py
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/ament_index/resource_index/package_run_dependencies/v2x_emergency
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/ament_index/resource_index/parent_prefix_path/v2x_emergency
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/path.sh
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/environment/path.dsv
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/local_setup.bash
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/local_setup.sh
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/local_setup.zsh
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/local_setup.dsv
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/package.dsv
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/ament_index/resource_index/packages/v2x_emergency
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergencyConfig.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergencyConfig-version.cmake
+-- Symlinking: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/package.xml
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_generator_c.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_c.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_typesupport_cpp.so" to ""
+Listing '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency'...
+Compiling '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/__init__.py'...
+Listing '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg'...
+Compiling '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/__init__.py'...
+Compiling '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_priority_grant.py'...
+Compiling '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_priority_request.py'...
+Compiling '/workspaces/Qcar/install/v2x_emergency/lib/python3.12/site-packages/v2x_emergency/msg/_signal_status.py'...
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/workspaces/Qcar/install/v2x_emergency/lib/libv2x_emergency__rosidl_generator_py.so" to ""
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/v2x_emergency/vehicle_node
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/v2x_emergency/traffic_light_node
+-- Installing: /workspaces/Qcar/install/v2x_emergency/lib/v2x_emergency/v2x_controller
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_generator_cExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_generator_cppExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_cExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_cppExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/v2x_emergency__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_generator_pyExport.cmake
+-- Installing: /workspaces/Qcar/install/v2x_emergency/share/v2x_emergency/cmake/export_v2x_emergency__rosidl_generator_pyExport-noconfig.cmake

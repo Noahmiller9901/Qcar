@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9456342200db799174fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "v2x_emergency__py",
+					"jsonFile" : "directory-v2x_emergency__py-7111fd2576c0bb54d68a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspaces/Qcar/build/v2x_emergency/v2x_emergency__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "v2x_emergency__rs",
+					"jsonFile" : "directory-v2x_emergency__rs-3c688dd5c3ff4d01d165.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspaces/Qcar/build/v2x_emergency/v2x_emergency__rs",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "v2x_emergency",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_v2x_emergency_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_v2x_emergency_egg-34465883754ae89d3b2a.json",
+					"name" : "ament_cmake_python_build_v2x_emergency_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_v2x_emergency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_v2x_emergency-7b514150eed6d97de3a7.json",
+					"name" : "ament_cmake_python_symlink_v2x_emergency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4cee423e76e44e091da3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency-7363a952369e358d57a3.json",
+					"name" : "v2x_emergency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__cpp-8f3d8ee82cd0d28d166c.json",
+					"name" : "v2x_emergency__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "v2x_emergency__py::@1a111c699fc21a83944e",
+					"jsonFile" : "target-v2x_emergency__py-4788fd3ab10e50d8744f.json",
+					"name" : "v2x_emergency__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_generator_c-7e7b6f13587fecc4cfc5.json",
+					"name" : "v2x_emergency__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_generator_py-c5d4d6f301f36947b3c0.json",
+					"name" : "v2x_emergency__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_generator_type_description-75f29b54ad2b427bd95f.json",
+					"name" : "v2x_emergency__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_typesupport_c-319bb46fccb476e19e71.json",
+					"name" : "v2x_emergency__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_typesupport_cpp-9afc51283e4522d06bb1.json",
+					"name" : "v2x_emergency__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_typesupport_fastrtps_c-33b341daa4cb456910ad.json",
+					"name" : "v2x_emergency__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_typesupport_fastrtps_cpp-e2a587b603d72e4c1243.json",
+					"name" : "v2x_emergency__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_typesupport_introspection_c-fc026f1132bb8579e6f6.json",
+					"name" : "v2x_emergency__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency__rosidl_typesupport_introspection_cpp-e34a25b385c508e7561b.json",
+					"name" : "v2x_emergency__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "v2x_emergency__rs::@255223f31dbb3e37d2ae",
+					"jsonFile" : "target-v2x_emergency__rs-1cc865c33e97d27f20d6.json",
+					"name" : "v2x_emergency__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency_s__rosidl_typesupport_c-59e4a4992d257b203f82.json",
+					"name" : "v2x_emergency_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency_s__rosidl_typesupport_fastrtps_c-05f7a8ddba614150b404.json",
+					"name" : "v2x_emergency_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency_s__rosidl_typesupport_introspection_c-2a14b9f1020cf8e03813.json",
+					"name" : "v2x_emergency_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2x_emergency_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2x_emergency_uninstall-36b4e102d5f58072f8d1.json",
+					"name" : "v2x_emergency_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/Qcar/build/v2x_emergency",
+		"source" : "/workspaces/Qcar/src/v2x_emergency"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

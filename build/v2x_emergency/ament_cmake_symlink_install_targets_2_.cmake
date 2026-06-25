@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/Qcar/build/v2x_emergency/rosidl_generator_py/v2x_emergency/v2x_emergency_s__rosidl_typesupport_c.so" "TARGETS" "v2x_emergency_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/v2x_emergency")

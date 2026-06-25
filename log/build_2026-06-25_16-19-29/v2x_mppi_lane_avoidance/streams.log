@@ -1,0 +1,41 @@
+[1.713s] Invoking command in '/workspaces/Qcar/src/v2x_mppi_lane_avoidance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/v2x_mppi_lane_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v2x_mppi_lane_avoidance build --build-base /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build install --record /workspaces/Qcar/build/v2x_mppi_lane_avoidance/install.log --single-version-externally-managed install_data
+[2.230s] running egg_info
+[2.260s] creating ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info
+[2.261s] writing ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/PKG-INFO
+[2.262s] writing dependency_links to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/dependency_links.txt
+[2.262s] writing entry points to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/entry_points.txt
+[2.263s] writing requirements to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/requires.txt
+[2.263s] writing top-level names to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/top_level.txt
+[2.264s] writing manifest file '../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/SOURCES.txt'
+[2.332s] reading manifest file '../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/SOURCES.txt'
+[2.333s] writing manifest file '../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/SOURCES.txt'
+[2.333s] running build
+[2.334s] running build_py
+[2.334s] creating /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+[2.335s] copying v2x_mppi_lane_avoidance/curve_generator.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+[2.336s] copying v2x_mppi_lane_avoidance/mppi_core.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+[2.336s] copying v2x_mppi_lane_avoidance/__init__.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+[2.337s] copying v2x_mppi_lane_avoidance/mppi_path_follower_node.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+[2.338s] running install
+[2.349s] running install_lib
+[2.382s] creating /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+[2.383s] copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/curve_generator.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+[2.383s] copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/mppi_core.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+[2.384s] copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/__init__.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+[2.384s] copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/mppi_path_follower_node.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+[2.387s] byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/curve_generator.py to curve_generator.cpython-312.pyc
+[2.387s] byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/mppi_core.py to mppi_core.cpython-312.pyc
+[2.390s] byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/__init__.py to __init__.cpython-312.pyc
+[2.390s] byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/mppi_path_follower_node.py to mppi_path_follower_node.cpython-312.pyc
+[2.396s] running install_data
+[2.397s] creating /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/ament_index/resource_index/packages
+[2.397s] copying resource/v2x_mppi_lane_avoidance -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/ament_index/resource_index/packages
+[2.398s] copying package.xml -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/v2x_mppi_lane_avoidance
+[2.399s] creating /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/v2x_mppi_lane_avoidance/launch
+[2.399s] copying launch/mppi_path_follower.launch.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/v2x_mppi_lane_avoidance/launch
+[2.401s] running install_egg_info
+[2.435s] Copying ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info to /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance-0.1.0-py3.12.egg-info
+[2.443s] running install_scripts
+[2.506s] Installing mppi_path_follower script to /workspaces/Qcar/install/v2x_mppi_lane_avoidance/bin
+[2.508s] writing list of installed files to '/workspaces/Qcar/build/v2x_mppi_lane_avoidance/install.log'
+[2.545s] Invoked command in '/workspaces/Qcar/src/v2x_mppi_lane_avoidance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/v2x_mppi_lane_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v2x_mppi_lane_avoidance build --build-base /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build install --record /workspaces/Qcar/build/v2x_mppi_lane_avoidance/install.log --single-version-externally-managed install_data

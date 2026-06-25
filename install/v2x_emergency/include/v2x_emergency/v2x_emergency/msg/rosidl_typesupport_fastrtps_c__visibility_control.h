@@ -1,0 +1,1 @@
+/workspaces/Qcar/build/v2x_emergency/rosidl_typesupport_fastrtps_c/v2x_emergency/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

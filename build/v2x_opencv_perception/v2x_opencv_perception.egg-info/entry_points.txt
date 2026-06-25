@@ -1,0 +1,3 @@
+[console_scripts]
+lane_detection_node = v2x_opencv_perception.lane_detection_node:main
+lane_path_adapter_node = v2x_opencv_perception.lane_path_adapter_node:main

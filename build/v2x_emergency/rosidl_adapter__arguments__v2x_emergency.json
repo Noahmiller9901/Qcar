@@ -1,0 +1,8 @@
+{
+  "package_name": "v2x_emergency",
+  "non_idl_tuples": [
+    "/workspaces/Qcar/src/v2x_emergency:msg/PriorityRequest.msg",
+    "/workspaces/Qcar/src/v2x_emergency:msg/SignalStatus.msg",
+    "/workspaces/Qcar/src/v2x_emergency:msg/PriorityGrant.msg"
+  ]
+}

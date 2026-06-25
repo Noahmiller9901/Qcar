@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: v2x_nav2_sim
+Version: 0.1.0
+Summary: V2X Nav2 Smac + Gazebo starter package for ROS 2 Jazzy.
+Maintainer: Prathamesh Sathe
+Maintainer-email: prathamesh@example.com
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

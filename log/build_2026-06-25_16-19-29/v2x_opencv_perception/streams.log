@@ -1,0 +1,39 @@
+[2.156s] Invoking command in '/workspaces/Qcar/src/v2x_opencv_perception': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/v2x_opencv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v2x_opencv_perception build --build-base /workspaces/Qcar/build/v2x_opencv_perception/build install --record /workspaces/Qcar/build/v2x_opencv_perception/install.log --single-version-externally-managed install_data
+[3.392s] running egg_info
+[3.444s] creating ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info
+[3.445s] writing ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/PKG-INFO
+[3.446s] writing dependency_links to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/dependency_links.txt
+[3.446s] writing entry points to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/entry_points.txt
+[3.447s] writing requirements to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/requires.txt
+[3.447s] writing top-level names to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/top_level.txt
+[3.447s] writing manifest file '../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/SOURCES.txt'
+[3.547s] reading manifest file '../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/SOURCES.txt'
+[3.547s] writing manifest file '../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/SOURCES.txt'
+[3.547s] running build
+[3.547s] running build_py
+[3.547s] creating /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+[3.547s] copying v2x_opencv_perception/lane_detection_node.py -> /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+[3.547s] copying v2x_opencv_perception/__init__.py -> /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+[3.547s] copying v2x_opencv_perception/lane_path_adapter_node.py -> /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+[3.548s] running install
+[3.564s] running install_lib
+[3.600s] creating /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+[3.600s] copying /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception/lane_detection_node.py -> /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+[3.600s] copying /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception/__init__.py -> /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+[3.601s] copying /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception/lane_path_adapter_node.py -> /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+[3.602s] byte-compiling /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception/lane_detection_node.py to lane_detection_node.cpython-312.pyc
+[3.607s] byte-compiling /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception/__init__.py to __init__.cpython-312.pyc
+[3.607s] byte-compiling /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception/lane_path_adapter_node.py to lane_path_adapter_node.cpython-312.pyc
+[3.608s] running install_data
+[3.608s] creating /workspaces/Qcar/install/v2x_opencv_perception/share/ament_index/resource_index/packages
+[3.609s] copying resource/v2x_opencv_perception -> /workspaces/Qcar/install/v2x_opencv_perception/share/ament_index/resource_index/packages
+[3.609s] copying package.xml -> /workspaces/Qcar/install/v2x_opencv_perception/share/v2x_opencv_perception
+[3.609s] creating /workspaces/Qcar/install/v2x_opencv_perception/share/v2x_opencv_perception/launch
+[3.610s] copying launch/opencv_perception.launch.py -> /workspaces/Qcar/install/v2x_opencv_perception/share/v2x_opencv_perception/launch
+[3.610s] running install_egg_info
+[3.666s] Copying ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info to /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception-0.1.0-py3.12.egg-info
+[3.674s] running install_scripts
+[3.878s] Installing lane_detection_node script to /workspaces/Qcar/install/v2x_opencv_perception/bin
+[3.881s] Installing lane_path_adapter_node script to /workspaces/Qcar/install/v2x_opencv_perception/bin
+[3.881s] writing list of installed files to '/workspaces/Qcar/build/v2x_opencv_perception/install.log'
+[3.916s] Invoked command in '/workspaces/Qcar/src/v2x_opencv_perception' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/v2x_opencv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v2x_opencv_perception build --build-base /workspaces/Qcar/build/v2x_opencv_perception/build install --record /workspaces/Qcar/build/v2x_opencv_perception/install.log --single-version-externally-managed install_data

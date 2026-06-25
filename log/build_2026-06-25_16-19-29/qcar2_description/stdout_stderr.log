@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python_EXECUTABLE
+
+[0m
+-- Build files have been written to: /workspaces/Qcar/build/qcar2_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/urdf/QCar2_original.urdf
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/urdf/QCar2_planb.urdf
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCar2Body.stl
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCar2Lidar.stl
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCarSteeringHubL.stl
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCarSteeringHubR.stl
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/meshes/QCarWheel.stl
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/models/qcar2_planb/model.config
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/models/qcar2_planb/model.sdf
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/launch/qcar2_bridge.launch.py
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/launch/qcar2_state_publisher.launch.py
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/launch/spawn_qcar2_planb.launch.py
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/config/qcar2_ros_gz_bridge.yaml
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/ament_index/resource_index/package_run_dependencies/qcar2_description
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/ament_index/resource_index/parent_prefix_path/qcar2_description
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/path.sh
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/environment/path.dsv
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.bash
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.sh
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.zsh
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/local_setup.dsv
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/package.dsv
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/ament_index/resource_index/packages/qcar2_description
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/cmake/qcar2_descriptionConfig.cmake
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/cmake/qcar2_descriptionConfig-version.cmake
+-- Symlinking: /workspaces/Qcar/install/qcar2_description/share/qcar2_description/package.xml

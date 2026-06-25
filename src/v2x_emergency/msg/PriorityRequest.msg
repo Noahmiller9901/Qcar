@@ -1,0 +1,5 @@
+string vehicle_id
+int32 urgency_level
+float32 distance_to_intersection
+float32 estimated_arrival_time
+string intersection_id

@@ -1,0 +1,3 @@
+string intersection_id
+string current_phase
+float32 time_remaining

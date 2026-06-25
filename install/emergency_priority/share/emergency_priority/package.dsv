@@ -1,0 +1,6 @@
+source;share/emergency_priority/hook/pythonpath.ps1
+source;share/emergency_priority/hook/pythonpath.dsv
+source;share/emergency_priority/hook/pythonpath.sh
+source;share/emergency_priority/hook/ament_prefix_path.ps1
+source;share/emergency_priority/hook/ament_prefix_path.dsv
+source;share/emergency_priority/hook/ament_prefix_path.sh

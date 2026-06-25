@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="simple_grid_world">
+    <physics name="1ms" type="ignored"><max_step_size>0.001</max_step_size><real_time_factor>1.0</real_time_factor></physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <light type="directional" name="sun"><cast_shadows>true</cast_shadows><pose>0 0 10 0 0 0</pose><diffuse>0.8 0.8 0.8 1</diffuse><direction>-0.5 0.1 -0.9</direction></light>
+    <model name="ground"><static>true</static><link name="ground_link"><collision name="collision"><geometry><plane><normal>0 0 1</normal><size>40 40</size></plane></geometry></collision><visual name="visual"><geometry><plane><normal>0 0 1</normal><size>40 40</size></plane></geometry><material><diffuse>0.2 0.2 0.2 1</diffuse></material></visual></link></model>
+    <!-- White grid roads/lanes for simple path testing -->
+    <model name="grid_roads"><static>true</static><link name="link">
+      <visual name="h1"><pose>0 -6 0.012 0 0 0</pose><geometry><box><size>28 0.12 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="h2"><pose>0 0 0.012 0 0 0</pose><geometry><box><size>28 0.12 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="h3"><pose>0 6 0.012 0 0 0</pose><geometry><box><size>28 0.12 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="v1"><pose>-6 0 0.012 0 0 0</pose><geometry><box><size>0.12 28 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="v2"><pose>0 0 0.012 0 0 0</pose><geometry><box><size>0.12 28 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+      <visual name="v3"><pose>6 0 0.012 0 0 0</pose><geometry><box><size>0.12 28 0.02</size></box></geometry><material><diffuse>1 1 1 1</diffuse></material></visual>
+    </link></model>
+
+    <!-- QCar2 Plan-B robot included for Plan B demos. If you already spawned an official QCar, delete/ignore this include. -->
+    <include>
+      <uri>model://qcar2_planb</uri>
+      <name>qcar2</name>
+      <pose>-4 -4 0.08 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="qcar2_planb">
+    <pose>0 0 0.08 0 0 0</pose>
+
+    <!--
+      This SDF is the Gazebo-running companion to the uploaded QCar2.urdf.
+      The original URDF is kept in qcar2_description/urdf/QCar2_original.urdf.
+      For the Friday demo we use simple Gazebo Sim systems so the vehicle publishes:
+        /qcar/odom, /qcar/scan, /qcar/camera/image_raw and consumes /qcar/cmd_vel.
+    -->
+
+    <link name="base_link">
+      <inertial>
+        <mass>3.275</mass>
+        <inertia>
+          <ixx>0.01235</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0292</iyy><iyz>0</iyz><izz>0.03223</izz>
+        </inertia>
+      </inertial>
+
+      <!-- Collision blocks copied from the uploaded URDF. -->
+      <collision name="collision_center">
+        <pose>0.000 0 0.053 0 0 0</pose>
+        <geometry><box><size>0.155 0.15 0.08</size></box></geometry>
+      </collision>
+      <collision name="collision_front">
+        <pose>0.194 0 0.083 0 0 0</pose>
+        <geometry><box><size>0.03 0.15 0.115</size></box></geometry>
+      </collision>
+      <collision name="collision_back">
+        <pose>-0.183 0 0.083 0 0 0</pose>
+        <geometry><box><size>0.037 0.15 0.115</size></box></geometry>
+      </collision>
+
+      <visual name="body_main">
+        <pose>0 0 0.06 0 0 0</pose>
+        <geometry><box><size>0.42 0.19 0.09</size></box></geometry>
+        <material><ambient>0.08 0.08 0.08 1</ambient><diffuse>0.08 0.08 0.08 1</diffuse></material>
+      </visual>
+      <visual name="top_cover">
+        <pose>0.0 0 0.125 0 0 0</pose>
+        <geometry><box><size>0.28 0.145 0.045</size></box></geometry>
+        <material><ambient>0.0 0.35 0.95 1</ambient><diffuse>0.0 0.35 0.95 1</diffuse></material>
+      </visual>
+      <visual name="front_marker">
+        <pose>0.215 0 0.105 0 0 0</pose>
+        <geometry><box><size>0.015 0.13 0.035</size></box></geometry>
+        <material><ambient>1 1 1 1</ambient><diffuse>1 1 1 1</diffuse></material>
+      </visual>
+    </link>
+
+    <link name="wheel_frontLeft">
+      <pose>0.12960 0.05590 0.03338 -1.5708 0 0</pose>
+      <collision name="collision"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry><material><ambient>0.01 0.01 0.01 1</ambient><diffuse>0.01 0.01 0.01 1</diffuse></material></visual>
+    </link>
+    <link name="wheel_frontRight">
+      <pose>0.12960 -0.05590 0.03338 -1.5708 0 0</pose>
+      <collision name="collision"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry><material><ambient>0.01 0.01 0.01 1</ambient><diffuse>0.01 0.01 0.01 1</diffuse></material></visual>
+    </link>
+    <link name="wheel_rearLeft">
+      <pose>-0.12765 0.05610 0.03338 -1.5708 0 0</pose>
+      <collision name="collision"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry><material><ambient>0.01 0.01 0.01 1</ambient><diffuse>0.01 0.01 0.01 1</diffuse></material></visual>
+    </link>
+    <link name="wheel_rearRight">
+      <pose>-0.12765 -0.05610 0.03338 -1.5708 0 0</pose>
+      <collision name="collision"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.033</radius><length>0.025</length></cylinder></geometry><material><ambient>0.01 0.01 0.01 1</ambient><diffuse>0.01 0.01 0.01 1</diffuse></material></visual>
+    </link>
+
+    <joint name="wheel_frontLeft_joint" type="revolute"><parent>base_link</parent><child>wheel_frontLeft</child><axis><xyz>0 0 1</xyz></axis></joint>
+    <joint name="wheel_frontRight_joint" type="revolute"><parent>base_link</parent><child>wheel_frontRight</child><axis><xyz>0 0 1</xyz></axis></joint>
+    <joint name="wheel_rearLeft_joint" type="revolute"><parent>base_link</parent><child>wheel_rearLeft</child><axis><xyz>0 0 1</xyz></axis></joint>
+    <joint name="wheel_rearRight_joint" type="revolute"><parent>base_link</parent><child>wheel_rearRight</child><axis><xyz>0 0 1</xyz></axis></joint>
+
+    <link name="lidar">
+      <pose>-0.0139 0 0.194 0 0 0</pose>
+      <visual name="lidar_visual"><geometry><cylinder><radius>0.04</radius><length>0.03</length></cylinder></geometry><material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material></visual>
+      <sensor name="lidar" type="gpu_lidar">
+        <topic>/qcar/scan</topic>
+        <update_rate>15</update_rate>
+        <ray>
+          <scan><horizontal><samples>720</samples><resolution>1</resolution><min_angle>-3.14159</min_angle><max_angle>3.14159</max_angle></horizontal></scan>
+          <range><min>0.08</min><max>12.0</max><resolution>0.01</resolution></range>
+        </ray>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+      </sensor>
+    </link>
+    <joint name="lidar_joint" type="fixed"><parent>base_link</parent><child>lidar</child></joint>
+
+    <link name="csi_front">
+      <pose>0.198 0 0.1095 0 0 0</pose>
+      <visual name="camera_visual"><geometry><box><size>0.025 0.045 0.025</size></box></geometry><material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material></visual>
+      <sensor name="front_camera" type="camera">
+        <topic>/qcar/camera/image_raw</topic>
+        <update_rate>15</update_rate>
+        <camera>
+          <horizontal_fov>1.047</horizontal_fov>
+          <image><width>640</width><height>480</height><format>R8G8B8</format></image>
+          <clip><near>0.05</near><far>50</far></clip>
+        </camera>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+      </sensor>
+    </link>
+    <joint name="csi_front_joint" type="fixed"><parent>base_link</parent><child>csi_front</child></joint>
+
+    <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+      <left_joint>wheel_frontLeft_joint</left_joint>
+      <left_joint>wheel_rearLeft_joint</left_joint>
+      <right_joint>wheel_frontRight_joint</right_joint>
+      <right_joint>wheel_rearRight_joint</right_joint>
+      <wheel_separation>0.112</wheel_separation>
+      <wheel_radius>0.033</wheel_radius>
+      <topic>/qcar/cmd_vel</topic>
+      <odom_topic>/qcar/odom</odom_topic>
+      <tf_topic>/tf</tf_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_link</child_frame_id>
+      <odom_publish_frequency>30</odom_publish_frequency>
+    </plugin>
+  </model>
+</sdf>

@@ -1,0 +1,6 @@
+msg/PriorityGrant.idl
+msg/PriorityGrant.msg
+msg/PriorityRequest.idl
+msg/PriorityRequest.msg
+msg/SignalStatus.idl
+msg/SignalStatus.msg

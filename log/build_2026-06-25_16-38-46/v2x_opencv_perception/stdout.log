@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info
+writing ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/dependency_links.txt
+writing entry points to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/entry_points.txt
+writing requirements to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/requires.txt
+writing top-level names to ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/top_level.txt
+writing manifest file '../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/SOURCES.txt'
+reading manifest file '../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+copying v2x_opencv_perception/lane_detection_node.py -> /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+copying v2x_opencv_perception/__init__.py -> /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+copying v2x_opencv_perception/lane_path_adapter_node.py -> /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception
+running install
+running install_lib
+creating /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+copying /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception/lane_detection_node.py -> /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+copying /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception/__init__.py -> /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+copying /workspaces/Qcar/build/v2x_opencv_perception/build/lib/v2x_opencv_perception/lane_path_adapter_node.py -> /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception
+byte-compiling /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception/lane_detection_node.py to lane_detection_node.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception/lane_path_adapter_node.py to lane_path_adapter_node.cpython-312.pyc
+running install_data
+creating /workspaces/Qcar/install/v2x_opencv_perception/share/ament_index/resource_index/packages
+copying resource/v2x_opencv_perception -> /workspaces/Qcar/install/v2x_opencv_perception/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/Qcar/install/v2x_opencv_perception/share/v2x_opencv_perception
+creating /workspaces/Qcar/install/v2x_opencv_perception/share/v2x_opencv_perception/launch
+copying launch/opencv_perception.launch.py -> /workspaces/Qcar/install/v2x_opencv_perception/share/v2x_opencv_perception/launch
+running install_egg_info
+Copying ../../build/v2x_opencv_perception/v2x_opencv_perception.egg-info to /workspaces/Qcar/install/v2x_opencv_perception/lib/python3.12/site-packages/v2x_opencv_perception-0.1.0-py3.12.egg-info
+running install_scripts
+Installing lane_detection_node script to /workspaces/Qcar/install/v2x_opencv_perception/lib/v2x_opencv_perception
+Installing lane_path_adapter_node script to /workspaces/Qcar/install/v2x_opencv_perception/lib/v2x_opencv_perception
+writing list of installed files to '/workspaces/Qcar/build/v2x_opencv_perception/install.log'

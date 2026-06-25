@@ -1,0 +1,1 @@
+/workspaces/Qcar/build/v2x_emergency/rosidl_generator_c/v2x_emergency/msg/detail/priority_grant__functions.h

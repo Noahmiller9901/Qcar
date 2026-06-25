@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info
+writing ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/dependency_links.txt
+writing entry points to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/entry_points.txt
+writing requirements to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/requires.txt
+writing top-level names to ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/top_level.txt
+writing manifest file '../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/SOURCES.txt'
+reading manifest file '../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+copying v2x_mppi_lane_avoidance/curve_generator.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+copying v2x_mppi_lane_avoidance/mppi_core.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+copying v2x_mppi_lane_avoidance/__init__.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+copying v2x_mppi_lane_avoidance/mppi_path_follower_node.py -> /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance
+running install
+running install_lib
+creating /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/curve_generator.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/mppi_core.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/__init__.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+copying /workspaces/Qcar/build/v2x_mppi_lane_avoidance/build/lib/v2x_mppi_lane_avoidance/mppi_path_follower_node.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance
+byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/curve_generator.py to curve_generator.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/mppi_core.py to mppi_core.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance/mppi_path_follower_node.py to mppi_path_follower_node.cpython-312.pyc
+running install_data
+creating /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/ament_index/resource_index/packages
+copying resource/v2x_mppi_lane_avoidance -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/v2x_mppi_lane_avoidance
+creating /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/v2x_mppi_lane_avoidance/launch
+copying launch/mppi_path_follower.launch.py -> /workspaces/Qcar/install/v2x_mppi_lane_avoidance/share/v2x_mppi_lane_avoidance/launch
+running install_egg_info
+Copying ../../build/v2x_mppi_lane_avoidance/v2x_mppi_lane_avoidance.egg-info to /workspaces/Qcar/install/v2x_mppi_lane_avoidance/lib/python3.12/site-packages/v2x_mppi_lane_avoidance-0.1.0-py3.12.egg-info
+running install_scripts
+Installing mppi_path_follower script to /workspaces/Qcar/install/v2x_mppi_lane_avoidance/bin
+writing list of installed files to '/workspaces/Qcar/build/v2x_mppi_lane_avoidance/install.log'

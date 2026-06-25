@@ -1,0 +1,17 @@
+twist_mux:
+  ros__parameters:
+    use_stamped: false
+    topics:
+      v2x_fallback:
+        topic: /v2x/fallback_cmd_vel
+        timeout: 0.5
+        priority: 100
+      mppi_path_follower:
+        topic: /mppi/cmd_vel
+        timeout: 0.5
+        priority: 50
+      nav2_controller:
+        topic: /nav2/cmd_vel
+        timeout: 0.5
+        priority: 10
+    cmd_vel_out: /cmd_vel

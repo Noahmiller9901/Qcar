@@ -1,0 +1,47 @@
+[1.925s] Invoking command in '/workspaces/Qcar/src/emergency_priority': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/emergency_priority/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_priority build --build-base /workspaces/Qcar/build/emergency_priority/build install --record /workspaces/Qcar/build/emergency_priority/install.log --install-scripts $base/lib/emergency_priority --single-version-externally-managed install_data
+[2.253s] /home/codespace/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[2.253s]   warnings.warn(msg)
+[2.498s] running egg_info
+[2.533s] creating ../../build/emergency_priority/emergency_priority.egg-info
+[2.533s] writing ../../build/emergency_priority/emergency_priority.egg-info/PKG-INFO
+[2.541s] writing dependency_links to ../../build/emergency_priority/emergency_priority.egg-info/dependency_links.txt
+[2.541s] writing entry points to ../../build/emergency_priority/emergency_priority.egg-info/entry_points.txt
+[2.541s] writing requirements to ../../build/emergency_priority/emergency_priority.egg-info/requires.txt
+[2.543s] writing top-level names to ../../build/emergency_priority/emergency_priority.egg-info/top_level.txt
+[2.543s] writing manifest file '../../build/emergency_priority/emergency_priority.egg-info/SOURCES.txt'
+[2.666s] reading manifest file '../../build/emergency_priority/emergency_priority.egg-info/SOURCES.txt'
+[2.666s] writing manifest file '../../build/emergency_priority/emergency_priority.egg-info/SOURCES.txt'
+[2.666s] running build
+[2.666s] running build_py
+[2.668s] creating /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority
+[2.673s] copying emergency_priority/v2x_fallback_node.py -> /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority
+[2.673s] copying emergency_priority/priority_mux_node.py -> /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority
+[2.674s] copying emergency_priority/standin_lane_controller.py -> /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority
+[2.674s] copying emergency_priority/__init__.py -> /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority
+[2.674s] running install
+[2.700s] running install_lib
+[2.759s] creating /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority
+[2.762s] copying /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority/v2x_fallback_node.py -> /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority
+[2.763s] copying /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority/priority_mux_node.py -> /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority
+[2.766s] copying /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority/standin_lane_controller.py -> /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority
+[2.766s] copying /workspaces/Qcar/build/emergency_priority/build/lib/emergency_priority/__init__.py -> /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority
+[2.771s] byte-compiling /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority/v2x_fallback_node.py to v2x_fallback_node.cpython-312.pyc
+[2.783s] byte-compiling /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority/priority_mux_node.py to priority_mux_node.cpython-312.pyc
+[2.793s] byte-compiling /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority/standin_lane_controller.py to standin_lane_controller.cpython-312.pyc
+[2.796s] byte-compiling /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority/__init__.py to __init__.cpython-312.pyc
+[2.799s] running install_data
+[2.800s] creating /workspaces/Qcar/install/emergency_priority/share/ament_index/resource_index/packages
+[2.801s] copying resource/emergency_priority -> /workspaces/Qcar/install/emergency_priority/share/ament_index/resource_index/packages
+[2.801s] copying package.xml -> /workspaces/Qcar/install/emergency_priority/share/emergency_priority
+[2.802s] creating /workspaces/Qcar/install/emergency_priority/share/emergency_priority/launch
+[2.803s] copying launch/v2x_system.launch.py -> /workspaces/Qcar/install/emergency_priority/share/emergency_priority/launch
+[2.803s] creating /workspaces/Qcar/install/emergency_priority/share/emergency_priority/config
+[2.805s] copying config/twist_mux.yaml -> /workspaces/Qcar/install/emergency_priority/share/emergency_priority/config
+[2.806s] running install_egg_info
+[2.894s] Copying ../../build/emergency_priority/emergency_priority.egg-info to /workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages/emergency_priority-0.0.1-py3.12.egg-info
+[2.896s] running install_scripts
+[2.980s] Installing priority_mux_node script to /workspaces/Qcar/install/emergency_priority/lib/emergency_priority
+[2.980s] Installing standin_lane_controller script to /workspaces/Qcar/install/emergency_priority/lib/emergency_priority
+[2.981s] Installing v2x_fallback_node script to /workspaces/Qcar/install/emergency_priority/lib/emergency_priority
+[2.984s] writing list of installed files to '/workspaces/Qcar/build/emergency_priority/install.log'
+[3.046s] Invoked command in '/workspaces/Qcar/src/emergency_priority' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/workspaces/Qcar/build/emergency_priority/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Qcar/install/emergency_priority/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_priority build --build-base /workspaces/Qcar/build/emergency_priority/build install --record /workspaces/Qcar/build/emergency_priority/install.log --install-scripts $base/lib/emergency_priority --single-version-externally-managed install_data
