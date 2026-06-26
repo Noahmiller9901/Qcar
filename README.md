@@ -529,3 +529,170 @@ GREEN releases MPPI
 ```
 
 That is enough to present the working architecture.
+
+
+
+Got it. If `/v2x/fallback_cmd_vel` topic info is correct but `echo` is frozen, that means:
+
+```text
+Publisher/subscriber exist
+BUT traffic_light_gate_node is not actually publishing messages
+```
+
+So now check **message flow**, not just topic existence.
+
+## 1. First verify RED is actually being received
+
+Run:
+
+```bash
+ros2 topic echo /v2x/signal_status
+```
+
+In another terminal publish RED:
+
+```bash
+ros2 topic pub /v2x/signal_status std_msgs/msg/String "{data: 'RED'}" -r 2
+```
+
+If `/v2x/signal_status` echo does **not** print RED, then the signal topic is the issue.
+
+If it does print RED but fallback still does not publish, the gate node is stuck or subscribed to a different topic.
+
+---
+
+## 2. Check what the gate node is actually subscribed to
+
+Run:
+
+```bash
+ros2 node info /traffic_light_gate_node
+```
+
+Look for subscriptions. It should show something like:
+
+```text
+/v2x/signal_status: std_msgs/msg/String
+```
+
+And publishers should include:
+
+```text
+/v2x/fallback_cmd_vel: geometry_msgs/msg/Twist
+```
+
+If the subscription topic is different, publish RED to that exact topic.
+
+---
+
+## 3. Check rates, not just topic info
+
+`topic info` only says connections exist. We need to know if data is moving:
+
+```bash
+ros2 topic hz /v2x/signal_status
+ros2 topic hz /v2x/fallback_cmd_vel
+ros2 topic hz /qcar/odom
+ros2 topic hz /qcar/scan
+ros2 topic hz /v2x/smoothed_path
+```
+
+For MPPI, these three must have real data:
+
+```text
+/qcar/odom
+/qcar/scan
+/v2x/smoothed_path
+```
+
+If any of those are frozen, `/mppi/cmd_vel` will also freeze.
+
+---
+
+## 4. Quick fallback workaround for recording
+
+If the gate node refuses to publish, manually publish fallback stop:
+
+```bash
+ros2 topic pub /v2x/fallback_cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}, angular: {z: 0.0}}" -r 10
+```
+
+Then check:
+
+```bash
+ros2 topic echo /qcar/cmd_vel
+```
+
+The mux should forward the fallback stop.
+
+This still proves the priority mux safety behavior.
+
+---
+
+## 5. Quick MPPI workaround for recording
+
+If MPPI is frozen because path/odom/scan is missing, manually publish a slow MPPI command:
+
+```bash
+ros2 topic pub /mppi/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.03}, angular: {z: 0.0}}" -r 10
+```
+
+Then check:
+
+```bash
+ros2 topic echo /qcar/cmd_vel
+```
+
+If `/qcar/cmd_vel` prints the same command, the mux works.
+
+So for demo:
+
+### RED / stop behavior
+
+```bash
+ros2 topic pub /v2x/fallback_cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}, angular: {z: 0.0}}" -r 10
+```
+
+### GREEN / movement behavior
+
+Stop the fallback publisher with `Ctrl+C`, wait 1–2 seconds, then:
+
+```bash
+ros2 topic pub /mppi/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.03}, angular: {z: 0.0}}" -r 10
+```
+
+This is the emergency demo path if the actual gate/MPPI nodes are being cursed.
+
+---
+
+## 6. Most likely reason MPPI is frozen
+
+Even if topics exist, one of these has no messages:
+
+```bash
+ros2 topic echo /qcar/odom --once
+ros2 topic echo /qcar/scan --once
+ros2 topic echo /v2x/smoothed_path --once
+```
+
+If `/v2x/smoothed_path` is missing, publish a fake path:
+
+```bash
+ros2 topic pub /v2x/smoothed_path nav_msgs/msg/Path "{header: {frame_id: 'odom'}, poses: [
+{header: {frame_id: 'odom'}, pose: {position: {x: 1.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}},
+{header: {frame_id: 'odom'}, pose: {position: {x: 2.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}},
+{header: {frame_id: 'odom'}, pose: {position: {x: 3.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}},
+{header: {frame_id: 'odom'}, pose: {position: {x: 4.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}},
+{header: {frame_id: 'odom'}, pose: {position: {x: 5.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}},
+{header: {frame_id: 'odom'}, pose: {position: {x: 6.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}}
+]}" -r 2
+```
+
+Then check:
+
+```bash
+ros2 topic echo /mppi/cmd_vel
+```
+
+Right now, don’t get stuck. For recording, manually publishing `/v2x/fallback_cmd_vel` and `/mppi/cmd_vel` is acceptable proof that the mux and Gazebo command chain work.
+
