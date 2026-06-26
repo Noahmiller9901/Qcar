@@ -1,8 +1,4 @@
-Absolutely. Save this as your **tomorrow command sheet**. Copy-paste only, no side quests.
 
----
-
-# 0. First dependency check on university PC
 
 Run this before cloning/building:
 
